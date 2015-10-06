@@ -1,1 +1,43 @@
 /* write your css here */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+nav {
+    background-color:rgba(0, 0, 0, 0.5);
+    overflow:hidden;
+    position:fixed;
+    width:100%;
+    top:0px;
+    padding:0.7em;
+}
+
+nav ul {
+    list-style: none;
+    color: white;
+    margin:0;
+    padding:0;
+}
+
+nav li {
+    padding:0.5em;
+    display: inline;
+    line-height:1;
+}
+
+nav a {
+    padding: 0.2em 1em 0.2em 1em;
+    border:1px solid white;
+    color: white;
+    text-decoration:none
+}
+
+nav a:hover { 
+    background-color:rgba(25, 1, 1, 0.5);
+    color:#FFBE47;
+    border:1px solid #FFBE47;
+}
