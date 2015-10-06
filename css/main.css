@@ -5,3 +5,31 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+.dialog-box { 
+    position: absolute;
+    font-family: serif;
+    background-color: #d2d2d2; 
+    width:80%;
+    padding:0.7em;
+} 
+
+.dialog-box__content { 
+    background-color: #FFF;
+    width:100%;
+    padding:0.7em;
+} 
+
+.dialog-box__title {
+    margin:0 0 0.7em 0;
+} 
+
+.dialog-box__close { 
+    position:absolute;
+    top:5px;
+    right:5px;
+    border: 2px solid white; 
+    background-color: tomato; 
+    width: 24px; 
+    height: 24px; 
+}
