@@ -5,3 +5,38 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+section {
+    margin:auto;
+    width:1200px;
+    text-align:center;
+}
+
+img {
+    padding:10px;
+}
+
+
+@media all and (min-width: 801px) and (max-width: 1200px){
+    section {
+        margin:auto;
+        width:800px;
+        text-align:center;
+    }
+    
+    img {
+        padding:10px;
+    }
+}
+
+@media all and (max-width: 800px){
+    section {
+        margin:auto;
+        width:400px;
+        text-align:center;
+    }
+    
+    img {
+        padding:7px;
+    } 
+}
